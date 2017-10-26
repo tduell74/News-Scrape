@@ -1,0 +1,89 @@
+body {
+  background-color: snow;
+}
+
+#results  {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.pageHeader {
+  background-color: #134151;
+  height: 150px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+}
+
+.pageHeader h1{
+  color: white;
+}
+
+.pageHeader h2 {
+  color: white;
+}
+
+.rowText {
+  color: #134151;
+  font-size: 2em;
+}
+
+.smallText {
+  color: #134151;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#articles p{
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#articles p:hover {
+  cursor: default;
+}
+
+#articles>a {
+  color: #2C82C9;
+}
+
+#articles>a:hover {
+  cursor: pointer;
+}
+
+input {
+  height: 36px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: snow;
+}
+
+p.title {
+  color: #777777;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: white;
+}
+#savenote {
+  margin: 10px;
+  width: 100px;
+}
+
+#deletenote {
+  margin: 10px;
+}
